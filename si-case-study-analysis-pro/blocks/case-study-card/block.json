@@ -1,0 +1,15 @@
+{
+  "name": "si-csp/case-study-card",
+  "version": "1.0.0",
+  "title": "Case Study Card",
+  "description": "Displays a case study card with extracted data.",
+  "category": "si-csp-blocks",
+  "icon": "admin-post",
+  "keywords": ["case study", "card", "si csp"],
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

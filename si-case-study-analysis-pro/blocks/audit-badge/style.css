@@ -1,0 +1,71 @@
+/**
+ * Audit Badge Block - Editor Styles
+ */
+
+.si-csp-audit-badge-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+.si-csp-audit-badge {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #fff;
+    background: #ccc;
+}
+
+.si-csp-audit-badge.excellent {
+    background: #28a745;
+}
+
+.si-csp-audit-badge.good {
+    background: #5cb85c;
+}
+
+.si-csp-audit-badge.average {
+    background: #f0ad4e;
+}
+
+.si-csp-audit-badge.poor {
+    background: #d9534f;
+}
+
+.si-csp-audit-date {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.si-csp-badge-small .si-csp-audit-badge {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9em;
+}
+
+.si-csp-badge-medium .si-csp-audit-badge {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+}
+
+.si-csp-badge-large .si-csp-audit-badge {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.5em;
+}
+
+.si-csp-audit-badge-placeholder {
+    padding: 20px;
+    border: 2px dashed #ddd;
+    text-align: center;
+    background: #f9f9f9;
+    color: #666;
+}

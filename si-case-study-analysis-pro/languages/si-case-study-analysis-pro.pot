@@ -1,0 +1,253 @@
+# Copyright (C) 2024 SI Case Study Analysis Pro
+# This file is distributed under the same license as the SI Case Study Analysis Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SI Case Study Analysis Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/si-csp/issues\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/Admin/Pages/LicensePage.php:45
+msgid "License Management"
+msgstr ""
+
+#: includes/Admin/Pages/LicensePage.php:52
+msgid "Activate License"
+msgstr ""
+
+#: includes/Admin/Pages/LicensePage.php:53
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/Admin/Pages/LicensePage.php:60
+msgid "License Key"
+msgstr ""
+
+#: includes/Admin/Pages/LicensePage.php:67
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/Admin/Pages/AuditDashboard.php:40
+msgid "Audit Dashboard"
+msgstr ""
+
+#: includes/Admin/Pages/AuditDashboard.php:55
+msgid "Run Audit"
+msgstr ""
+
+#: includes/Admin/Pages/AuditDashboard.php:70
+msgid "Audit Score"
+msgstr ""
+
+#: includes/Admin/Pages/SystemHealthPage.php:38
+msgid "System Health"
+msgstr ""
+
+#: includes/Admin/Pages/SystemHealthPage.php:65
+msgid "Fix"
+msgstr ""
+
+#: includes/Admin/Pages/DataManagementPage.php:35
+msgid "Data Management"
+msgstr ""
+
+#: includes/Admin/Pages/DataManagementPage.php:50
+msgid "Extract Data"
+msgstr ""
+
+#: includes/Admin/Pages/DataManagementPage.php:51
+msgid "Flush Cache"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:20
+msgid "Please select a case study to display."
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:27
+msgid "Case study data not available. Please run data extraction."
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:47
+msgid "Industry:"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:54
+msgid "Company Size:"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:61
+msgid "Date:"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:71
+msgid "Challenge"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:78
+msgid "Solution"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:85
+msgid "Results"
+msgstr ""
+
+#: includes/Frontend/Blocks/CaseStudyCard/render.php:97
+msgid "Read Full Case Study"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:18
+msgid "Please select a blueprint to display."
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:25
+msgid "Blueprint data not available. Please run data extraction."
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:42
+msgid "Version:"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:49
+msgid "Last Updated:"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:59
+msgid "Overview"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:66
+msgid "Requirements"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:77
+msgid "Implementation Steps"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:88
+msgid "Best Practices"
+msgstr ""
+
+#: includes/Frontend/Blocks/BlueprintCard/render.php:96
+msgid "View Full Blueprint"
+msgstr ""
+
+#: includes/Frontend/Blocks/AuditBadge/render.php:17
+msgid "Please select a post to display audit score."
+msgstr ""
+
+#: includes/Frontend/Blocks/AuditBadge/render.php:24
+msgid "N/A"
+msgstr ""
+
+#: includes/Frontend/Blocks/AuditBadge/render.php:52
+msgid "Audited:"
+msgstr ""
+
+#: si-case-study-analysis-pro.php:35
+msgid "SI Case Study Analysis Pro requires PHP version %s or higher."
+msgstr ""
+
+#: si-case-study-analysis-pro.php:42
+msgid "SI Case Study Analysis Pro requires WordPress version %s or higher."
+msgstr ""
+
+#: includes/Core/Bootstrap.php:85
+msgid "Welcome to SI Case Study Analysis Pro!"
+msgstr ""
+
+#: includes/Core/ActivationService.php:45
+msgid "Thank you for activating SI Case Study Analysis Pro."
+msgstr ""
+
+#: includes/Licensing/LicenseManager.php:120
+msgid "License activated successfully."
+msgstr ""
+
+#: includes/Licensing/LicenseManager.php:135
+msgid "License deactivated successfully."
+msgstr ""
+
+#: includes/Licensing/LicenseManager.php:150
+msgid "Invalid license key."
+msgstr ""
+
+#: includes/Licensing/LicenseManager.php:165
+msgid "License has expired."
+msgstr ""
+
+#: assets/js/admin.js:45
+msgid "Please enter a license key."
+msgstr ""
+
+#: assets/js/admin.js:62
+msgid "Activating..."
+msgstr ""
+
+#: assets/js/admin.js:67
+msgid "Activation failed."
+msgstr ""
+
+#: assets/js/admin.js:72
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: assets/js/admin.js:82
+msgid "Are you sure you want to deactivate your license?"
+msgstr ""
+
+#: assets/js/admin.js:95
+msgid "Deactivating..."
+msgstr ""
+
+#: assets/js/admin.js:100
+msgid "Deactivation failed."
+msgstr ""
+
+#: assets/js/admin.js:125
+msgid "Running Audit..."
+msgstr ""
+
+#: assets/js/admin.js:130
+msgid "Audit completed successfully."
+msgstr ""
+
+#: assets/js/admin.js:135
+msgid "Audit failed."
+msgstr ""
+
+#: assets/js/admin.js:185
+msgid "This will extract data from all Case Studies and Blueprints. Continue?"
+msgstr ""
+
+#: assets/js/admin.js:198
+msgid "Extracting..."
+msgstr ""
+
+#: assets/js/admin.js:203
+msgid "Data extraction completed. %d items processed."
+msgstr ""
+
+#: assets/js/admin.js:208
+msgid "Extraction failed."
+msgstr ""
+
+#: assets/js/admin.js:218
+msgid "Are you sure you want to flush all caches?"
+msgstr ""
+
+#: assets/js/admin.js:231
+msgid "Flushing..."
+msgstr ""
+
+#: assets/js/admin.js:236
+msgid "Cache flushed successfully."
+msgstr ""
+
+#: assets/js/admin.js:241
+msgid "Cache flush failed."
+msgstr ""

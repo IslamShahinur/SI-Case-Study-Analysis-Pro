@@ -1,0 +1,93 @@
+/**
+ * Case Study Card Block - Editor Styles
+ */
+
+.si-csp-block-placeholder {
+    padding: 20px;
+    border: 2px dashed #ddd;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.si-csp-block-placeholder h4 {
+    margin: 0 0 10px 0;
+    color: #0073aa;
+}
+
+.si-csp-case-study-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.si-csp-card-header {
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.si-csp-card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #23282d;
+}
+
+.si-csp-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.si-csp-card-content {
+    line-height: 1.6;
+    color: #444;
+}
+
+.si-csp-card-section {
+    margin-bottom: 15px;
+}
+
+.si-csp-card-section-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0073aa;
+    margin-bottom: 8px;
+}
+
+.si-csp-card-footer {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.si-csp-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.si-csp-tag {
+    background: #f0f0f1;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.si-csp-card-action {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}

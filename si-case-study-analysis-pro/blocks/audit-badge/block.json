@@ -1,0 +1,15 @@
+{
+  "name": "si-csp/audit-badge",
+  "version": "1.0.0",
+  "title": "Audit Score Badge",
+  "description": "Displays the audit score badge for a case study.",
+  "category": "si-csp-blocks",
+  "icon": "awards",
+  "keywords": ["audit", "score", "badge", "si csp"],
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

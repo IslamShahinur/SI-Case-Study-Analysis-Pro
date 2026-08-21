@@ -1,0 +1,70 @@
+/**
+ * Blueprint Card Block - Editor Styles
+ */
+
+.si-csp-blueprint-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.si-csp-blueprint-card .si-csp-card-header {
+    border-bottom-color: #28a745;
+}
+
+.si-csp-blueprint-card .si-csp-card-section-title {
+    color: #28a745;
+}
+
+.si-csp-block-placeholder {
+    padding: 20px;
+    border: 2px dashed #ddd;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.si-csp-block-placeholder h4 {
+    margin: 0 0 10px 0;
+    color: #28a745;
+}
+
+.si-csp-card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #23282d;
+}
+
+.si-csp-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.si-csp-card-content {
+    line-height: 1.6;
+    color: #444;
+}
+
+.si-csp-card-section {
+    margin-bottom: 15px;
+}
+
+.si-csp-card-footer {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.si-csp-card-action {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}

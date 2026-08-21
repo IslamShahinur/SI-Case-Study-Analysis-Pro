@@ -1,0 +1,15 @@
+{
+  "name": "si-csp/blueprint-card",
+  "version": "1.0.0",
+  "title": "Blueprint Card",
+  "description": "Displays a blueprint card with extracted data.",
+  "category": "si-csp-blocks",
+  "icon": "clipboard",
+  "keywords": ["blueprint", "card", "si csp"],
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

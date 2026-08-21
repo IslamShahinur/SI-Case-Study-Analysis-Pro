@@ -1,0 +1,8 @@
+```
+# Compressed files
+*.zip
+
+# WordPress specific
+wp-content/
+*.pot
+```

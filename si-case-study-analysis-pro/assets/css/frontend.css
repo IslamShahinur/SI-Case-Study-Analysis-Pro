@@ -1,0 +1,170 @@
+/**
+ * SI Case Study Analysis Pro - Frontend Styles
+ * 
+ * @package SI_CSP
+ * @since 1.0.0
+ */
+
+/* Case Study Card */
+.si-csp-case-study-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.si-csp-case-study-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.si-csp-card-header {
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.si-csp-card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #23282d;
+}
+
+.si-csp-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.si-csp-meta-item {
+    display: flex;
+    align-items: center;
+}
+
+.si-csp-meta-label {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.si-csp-card-content {
+    line-height: 1.6;
+    color: #444;
+}
+
+.si-csp-card-section {
+    margin-bottom: 15px;
+}
+
+.si-csp-card-section-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0073aa;
+    margin-bottom: 8px;
+}
+
+.si-csp-card-footer {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.si-csp-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.si-csp-tag {
+    background: #f0f0f1;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.si-csp-card-action {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.si-csp-card-action:hover {
+    background: #005a87;
+    color: #fff;
+}
+
+/* Blueprint Card */
+.si-csp-blueprint-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.si-csp-blueprint-card .si-csp-card-header {
+    border-bottom-color: #28a745;
+}
+
+.si-csp-blueprint-card .si-csp-card-section-title {
+    color: #28a745;
+}
+
+/* Audit Score Badge */
+.si-csp-audit-badge {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.si-csp-audit-badge.excellent {
+    background: #28a745;
+}
+
+.si-csp-audit-badge.good {
+    background: #5cb85c;
+}
+
+.si-csp-audit-badge.average {
+    background: #f0ad4e;
+}
+
+.si-csp-audit-badge.poor {
+    background: #d9534f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .si-csp-case-study-card {
+        padding: 15px;
+    }
+    
+    .si-csp-card-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .si-csp-card-footer {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+}
