@@ -1,0 +1,21 @@
+/**
+ * SI Case Study Analysis Pro - Global Admin Styles
+ */
+:root {
+    --si-cap-primary: #0073aa;
+    --si-cap-success: #00a32a;
+    --si-cap-warning: #dba617;
+    --si-cap-error: #d63638;
+}
+.si-cap-admin-wrap {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+}
+.si-cap-status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}

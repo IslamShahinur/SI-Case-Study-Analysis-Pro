@@ -1,0 +1,10 @@
+# Copyright (C) 2024 SI Case Study
+msgid ""
+msgstr ""
+"Project-Id-Version: SI Case Study Analysis Pro 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: si-case-study-analysis-pro.php:45
+msgid "SI Case Study Analysis Pro requirements not met."
+msgstr ""
